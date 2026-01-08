@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <unistd.h>	// write
 
 void	ft_print_reverse_alphabet(void)
 {
@@ -12,8 +12,10 @@ void	ft_print_reverse_alphabet(void)
 	}
 }
 
+/*
 int	main(void)
 {
 	ft_print_reverse_alphabet();
 	write(1, "\n", 1);
 }
+*/

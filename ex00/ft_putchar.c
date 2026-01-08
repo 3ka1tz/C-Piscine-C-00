@@ -1,10 +1,11 @@
-#include <unistd.h>
+#include <unistd.h>	// write
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
+/*
 int	main(void)
 {
 	ft_putchar('H');
@@ -22,3 +23,4 @@ int	main(void)
 	ft_putchar('!');
 	ft_putchar('\n');
 }
+*/

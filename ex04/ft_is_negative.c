@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <unistd.h>	// write
 
 void	ft_is_negative(int n)
 {
@@ -8,6 +8,7 @@ void	ft_is_negative(int n)
 		write(1, "P", 1);
 }
 
+/*
 int	main(void)
 {
 	write(1, "ft_is_negative(-1) = ", 21);
@@ -23,3 +24,4 @@ int	main(void)
 	ft_is_negative(+1);
 	write(1, "\n", 1);
 }
+*/
