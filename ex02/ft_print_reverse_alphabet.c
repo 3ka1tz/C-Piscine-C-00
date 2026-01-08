@@ -8,11 +8,12 @@ void	ft_print_reverse_alphabet(void)
 	while (letter >= 'a')
 	{
 		write(1, &letter, 1);
-		letter--;
+		--letter;
 	}
 }
 
 int	main(void)
 {
 	ft_print_reverse_alphabet();
+	write(1, "\n", 1);
 }
