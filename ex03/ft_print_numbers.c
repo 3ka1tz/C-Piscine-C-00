@@ -8,6 +8,6 @@ void	ft_print_numbers(void)
 	while (number <= '9')
 	{
 		write(1, &number, 1);
-		++number;
+		number++;
 	}
 }

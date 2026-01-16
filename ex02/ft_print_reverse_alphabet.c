@@ -8,6 +8,6 @@ void	ft_print_reverse_alphabet(void)
 	while (letter >= 'a')
 	{
 		write(1, &letter, 1);
-		--letter;
+		letter--;
 	}
 }
